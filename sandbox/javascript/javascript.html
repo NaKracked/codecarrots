@@ -1,0 +1,42 @@
+<style>
+.form_blank{
+	border:1px solid black;
+	width:100px;
+	height:20px;
+}
+</style>
+
+<div class="form_blank" id="blank_1">
+
+</div>
+
+
+<div class="form_blank" id="blank_2">
+
+</div>
+
+
+<script type="text/javascript">
+
+ //localStorage.setItem("lastname", "Smith");
+    // Retrieve
+    document.getElementById("blank_2").innerHTML = localStorage.getItem("last_name");
+
+var first_name="NaKracken";
+var last_name="Wacked";
+ var first_name = first_name.toUpperCase();
+//document.getElementByID("blank_1").style.border.color="red";
+document.getElementById("blank_1").innerHTML = first_name;
+//document.getElementById("blank_2").innerHTML = last_name;
+
+
+
+
+//alert("hello world!");
+console.log("We're all gonna die!");
+for (i = 1; i <=10; i++) {
+	if(i>6){
+  console.log(i*2); 
+  } 
+}
+</script>

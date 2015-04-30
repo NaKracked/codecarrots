@@ -1,0 +1,14 @@
+ Last name: <input id="last_name" type="text" name="LastName" placeholder="Last Name"><br>
+ <button onclick="savename()" id="confirm">
+ 	Click Here
+ </button>
+
+ <script type="text/javascript">
+ function savename(){
+ 	var last_name=document.getElementById("last_name").value; 
+
+ localStorage.setItem("last_name", last_name);
+}
+
+ </script>
+    
