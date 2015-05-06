@@ -1,0 +1,37 @@
+
+<html>
+<body>
+     First Name: <input id="first_name" type="text" name="first_name" placeholder="First Name"><br>
+ 
+     Last name: <input id="last_name" type="text" name="last_name" placeholder="Last Name"><br>
+ 
+ 	 Email: <input id="email" type="text" name="email" placeholder="Email"><br>
+
+ <button onclick="savename()" id="confirm">
+ 	Click Here
+ </button>
+
+ <script type="text/javascript">
+ function savename(){
+ 	var last_name=document.getElementById("last_name").value; 
+                           //key , value
+localStorage.setItem("last_name", last_name);
+
+//same as above
+ //localStorage.setItem("last_name", document.getElementById("last_name").value);
+ 
+localStorage.setItem("first_name", document.getElementById("first_name").value);
+localStorage.setItem("email", document.getElementById("email").value);
+ 
+  //shows what is saving to local storage
+   for (var key in localStorage) {
+    console.log(key, localStorage[key]);
+}
+
+}
+
+ </script>
+
+</body>
+
+ </html>
