@@ -97,9 +97,9 @@
 <input type="radio" name="student_status" class="element checkbox" type="checkbox" value="1" />
 <label class="choice" for="student_status">No</label>
 		</span> 
-		</li>		<li id="li_16" >
-
-
+		</li>	
+			
+		<li id="li_16" >
 		<label class="description" for="disability_status">Do you have a Disability? </label>
 		<span>
 
@@ -154,12 +154,34 @@
 
 		</span> 
 		</li>
-			
-					<li class="buttons">
+		
+			<!-- 		<li class="buttons">
 			    <input type="hidden" name="form_id" value="1005673" />
 				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
 
-		</li>
+		</li>  -->
+
+
+<button onclick="savename()" id="confirm">
+ 	Click Here
+ </button>
+
+ <script type="text/javascript">
+ function savename(){
+
+ 
+localStorage.setItem("first_name", document.getElementById("first_name").value);
+localStorage.setItem("last_name", document.getElementById("last_name").value);
+localStorage.setItem("email_address", document.getElementById("email_address").value);
+ 
+  //shows what is saving to local storage
+   for (var key in localStorage) {
+    console.log(key, localStorage[key]);
+}
+
+}
+
+ </script>
 
 			</ul>
 		</form>	
