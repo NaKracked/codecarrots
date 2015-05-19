@@ -1,0 +1,47 @@
+Do you have a Disability?:<input class="user_input" id="disability_status" type="radio" name="disability_status" value="yes" >Yes
+  <input id="disability_status" type="radio" name="disability_status" value="no"checked>No<br>
+      
+      What is your favorite color?:
+<input class="user_input"  type="radio" name="color" value="red" >Red
+<input class="user_input"  type="radio" name="color" value="blue" >blue
+<input class="user_input"  type="radio" name="color" value="green" >green
+<input class="user_input"  type="radio" name="color" value="orange" >orange
+<input class="user_input"  type="radio" name="color" value="purple" checked>purplexxxxxxx
+    <button onclick="alert('AAA')">OkaySuper</button>
+    <button onclick='alert(radio_button_group_function("disability_status"))'>dis status</button>
+    <button onclick='alert(radio_button_group_function("color"))'>color</button>
+    <button onclick="test()">Try that</button>
+    
+    
+     <script>
+
+function test(){
+alert("test");
+}
+a
+function radio_button_group_function(radio_switches)
+{
+var radio_button_group_var = document.getElementsByName(radio_switches);
+
+for(var i = 0; i < radio_button_group_var.length; i++) {
+   if(radio_button_group_var[i].checked == true) {
+       selected_option = radio_button_group_var[i].value;
+   }
+ }
+return(selected_option);
+
+}
+
+var radio_button_group_var = document.getElementsByName("disability_status");
+
+for(var i = 0; i < radio_button_group_var.length; i++) {
+   if(radio_button_group_var[i].checked == true) {
+       selected_option = radio_button_group_var[i].value;
+   }
+ }
+
+
+//alert(radio_button_group_function("hotdog"));
+//alert(foo("disability_status"))
+//alert(foo("color"))
+</script>

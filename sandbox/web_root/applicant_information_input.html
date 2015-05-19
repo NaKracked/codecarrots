@@ -1,16 +1,65 @@
 
 <html>
-<body>
-     First Name: <input id="first_name" type="text" name="first_name" placeholder="First Name"><br>
-     Middle Intial: <input id="middle_initial" type="text" name="middle_initial" placeholder="Middle Initial"><br>
-     Last Name: <input id="last_name" type="text" name="last_name" placeholder="Last Name"><br>
- 	 Mailing Address: <input id="mailing_address" type="text" name="mailing_address" placeholder="Mailing Address"><br>
- 	 Email: <input id="email" type="text" name="email" placeholder="Email"><br>
- 	 Phone Number: <input id="phone_number" type="text" name="phone_number" placeholder="Phone Number"><br>
+<head>
 
- <button onclick="savename()" id="confirm">
+  <script src="js_functions_output.js">
+</script>
+</head>
+<body>
+
+<h1>Applicant Information</h1>
+
+     First Name: <input class="user_input" id="first_name" type="text" name="first_name" placeholder="First Name"><br>
+     Middle Intial: <input class="user_input" id="middle_initial" type="text" name="middle_initial" placeholder="Middle Initial"><br>
+     Last Name: <input class="user_input" id="last_name" type="text" name="last_name" placeholder="Last Name"><br>
+ 	 Alias: <input class="user_input" id="alias" type="text" name="alias" placeholder="Alias"><br>
+ 	 Mailing Address: <input class="user_input" id="mailing_address" type="text" name="mailing_address" placeholder="Mailing Address"><br>
+ 	 Email: <input class="user_input" id="email" type="text" name="email" placeholder="myemail@somewhere.com"><br>
+ 	 Phone Number: <input class="user_input" id="phone_number" type="text" name="phone_number" placeholder="Phone Number"><br>
+ 	 Work Number: <input class="user_input" id="work_number" type="text" name="work_number" placeholder="Work Number"><br>
+ 	 Social Security Number: <input class="user_input" id="ssi_number" type="text" name="ssi_number" placeholder="XXX-XX-XXXX"><br>
+ 	 Birth Date: <input class="user_input" id="birth_date" type="text" name="birth_date" placeholder="MM/DD/YEAR"><br>
+ 	 Birth Place: <input class="user_input" id="birth_place" type="text" name="birth_place" placeholder="Birth Place"><br>
+ 	 
+<!-- radio switches div -->
+<div id=gender> 
+   Gender:<input class="user_input" id="gender" type="radio" name="gender" value="male" checked>Male
+  <input id="gender" type="radio" name="gender" value="female">Female<br>
+</div>   
+  <!-- If possible to only have one value, use that. When putting on output form will create formula for if on, put X here, if off put x here.  -->
+  Do you have a Disability?:<input class="user_input" id="disability_status" type="radio" name="disability_status" value="yes" checked>Yes
+  <input id="disability_status" type="radio" name="disability_status" value="no">No<br>
+
+
+
+   Primary Language: <input class="user_input" id="primary_language" type="text" name="primary_language" placeholder="Primary Language"><br>
+	What accomidations do you need to complete the application?: <input class="user_input" id="describe_application_accomidations" type="text" name="describe_application_accomidations" placeholder="Decribe Needed Accomidations"><br>
+ 	What accomidations do you need to your housing unit?: <input class="user_input" id="describe_unit_accomidations" type="text" name="describe_unit_accomidations" placeholder="Unit Accomidations"><br>
+Are you or someone in your Household expecting a baby?: <input class="user_input" id="baby" type="text" name="baby" placeholder="Y/N"><br>
+
+
+<h1>Household Information</h1>
+Race of Household:<input class="user_input" id="household_race" type="text" name="household_race" placeholder="Black/White/Asian/Hisplanic/Native/Pacific Islander"><br>
+Household Member's First Name: <input class="user_input" id="member_first_name_1" type="text" name="member_first_name_1" placeholder="First Name"><br>
+Household Member's Last Name: <input class="user_input" id="member_last_name_1" type="text" name="member_last_name_1" placeholder="Last Name"><br>
+Household Member's Middle Intial:<input class="user_input" id="member_middle_inital_1" type="text" name="member_middle_inital_1" placeholder="Middle Intial"><br>
+Household Member's Disability Status: <input class="user_input" id="member_disability_status_1" type="text" name="member_disability_status_1" placeholder="Y/N"><br>
+Household Member's Gender: <input class="user_input" id="member_gender_1" type="text" name="member_gender_1" placeholder="M/F"><br>
+Relationship to Applicant/Head of Household: <input class="user_input" id="relation_1" type="text" name="relation_1" placeholder="Son/Daughter/Spouse"><br>
+Household Member's Birth Date: <input class="user_input" id="member_birth_date_1" type="text" name="member_birth_date_1" placeholder="MM/DD/YEAR"><br>
+Household Member's Birth Place: <input class="user_input" id="member_birth_place_1" type="text" name="member_birth_place_1" placeholder="Birth Place"><br>
+Household Member's Social Security Number: <input class="user_input" id="member_ssi_1" type="text" name="member_ssi_1" placeholder="XXX-XX-XXXX"><br>
+Household Member's Race: <input class="user_input" id="member_race_1" type="text" name="member_race_1" placeholder="Black/White/Asian/Hispanic/Other"><br>
+Is this Household Member a Student?: <input class="user_input" id="member_student_1" type="text" name="member_student_1" placeholder="Y/N"><br>
+
+<h1>Household Income Information</h1>
+
+
+
+ <button onclick="savename()" class="user_input" id="confirm">
  	Submit
  </button>
+      <!--   create save this warning and delete local storage -->
 
  <script type="text/javascript">
  function savename(){
@@ -25,7 +74,31 @@ localStorage.setItem("middle_initial", document.getElementById("middle_initial")
 localStorage.setItem("email", document.getElementById("email").value);
 localStorage.setItem("mailing_address", document.getElementById("mailing_address").value);
 localStorage.setItem("phone_number", document.getElementById("phone_number").value);
- 
+localStorage.setItem("ssi_number", document.getElementById("ssi_number").value);
+localStorage.setItem("birth_date", document.getElementById("birth_date").value);
+localStorage.setItem("birth_place", document.getElementById("birth_place").value);
+localStorage.setItem("describe_application_accomidations", document.getElementById("describe_application_accomidations").value);
+localStorage.setItem("describe_unit_accomidations", document.getElementById("describe_application_accomidations").value);
+localStorage.setItem("work_number", document.getElementById("work_number").value);
+localStorage.setItem("alias", document.getElementById("alias").value);
+localStorage.setItem("primary_language", document.getElementById("primary_language").value);
+localStorage.setItem("member_first_name_1", document.getElementById("member_first_name_1").value);
+localStorage.setItem("member_last_name_1", document.getElementById("member_last_name_1").value);
+localStorage.setItem("member_middle_inital_1", document.getElementById("member_middle_inital_1").value);
+localStorage.setItem("member_disability_status_1", document.getElementById("member_disability_status_1").value);
+localStorage.setItem("member_gender_1", document.getElementById("member_gender_1").value);
+localStorage.setItem("relation_1", document.getElementById("relation_1").value);
+localStorage.setItem("member_birth_place_1", document.getElementById("member_birth_place_1").value);
+localStorage.setItem("member_birth_date_1", document.getElementById("member_birth_date_1").value);
+localStorage.setItem("baby", document.getElementById("baby").value);
+localStorage.setItem("member_ssi_1", document.getElementById("member_ssi_1").value);
+localStorage.setItem("member_student_1", document.getElementById("member_student_1").value);
+localStorage.setItem("member_race_1", document.getElementById("member_race_1").value);
+localStorage.setItem("household_race", document.getElementById("household_race").value);
+
+
+//local storage is okay for now, but think about converting to session cookies or something. Google does encrypting with user created password. Save to disk to do now. 
+
   //shows what is saving to local storage
    for (var key in localStorage) {
     console.log(key, localStorage[key]);
@@ -39,6 +112,30 @@ document.getElementById("middle_initial").value = localStorage.getItem("middle_i
 document.getElementById("email").value = localStorage.getItem("email");
 document.getElementById("mailing_address").value = localStorage.getItem("mailing_address");
 document.getElementById("phone_number").value = localStorage.getItem("phone_number");
+document.getElementById("ssi_number").value = localStorage.getItem("ssi_number");
+document.getElementById("birth_date").value = localStorage.getItem("birth_date");
+document.getElementById("birth_place").value = localStorage.getItem("birth_place");
+document.getElementById("work_number").value = localStorage.getItem("work_number");
+document.getElementById("describe_application_accomidations").value = localStorage.getItem("describe_application_accomidations");
+document.getElementById("describe_unit_accomidations").value = localStorage.getItem("describe_unit_accomidations");
+document.getElementById("alias").value = localStorage.getItem("alias");
+document.getElementById("primary_language").value = localStorage.getItem("primary_language");
+document.getElementById("member_first_name_1").value = localStorage.getItem("member_first_name_1");
+document.getElementById("member_last_name_1").value = localStorage.getItem("member_last_name_1");
+document.getElementById("member_middle_inital_1").value = localStorage.getItem("member_middle_inital_1");
+document.getElementById("member_disability_status_1").value = localStorage.getItem("member_disability_status_1");
+document.getElementById("member_disability_status_1").value = localStorage.getItem("member_disability_status_1");
+document.getElementById("relation_1").value = localStorage.getItem("relation_1");
+document.getElementById("member_birth_date_1").value = localStorage.getItem("member_birth_date_1");
+document.getElementById("member_birth_place_1").value = localStorage.getItem("member_birth_place_1");
+document.getElementById("baby").value = localStorage.getItem("baby");
+document.getElementById("member_ssi_1").value = localStorage.getItem("member_ssi_1");
+document.getElementById("member_student_1").value = localStorage.getItem("member_student_1");
+document.getElementById("member_race_1").value = localStorage.getItem("member_race_1");
+document.getElementById("household_race").value = localStorage.getItem("household_race");
+
+
+
    // how to pull back out of local storage onto the website values
 
  </script>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 765 990"
+   id="svg3373"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="test.svg">
+  <defs
+     id="defs3375" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.54242424"
+     inkscape:cx="382.5"
+     inkscape:cy="528.57166"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true" />
+  <metadata
+     id="metadata3378">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-62.362205)">
+    <image
+       sodipodi:absref="C:\Users\nina\Documents\codecarrots\sandbox\superimpose\Mothers\Subsidized_Housing_Application_King County HA-03.png"
+       y="63.099644"
+       x="0"
+       id="image3389"
+       xlink:href="file:///C:/Users/nina/Documents/codecarrots/sandbox/superimpose/Mothers/Subsidized_Housing_Application_King%20County%20HA-03.png"
+       preserveAspectRatio="none"
+       height="792"
+       width="612" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3392"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:2.5px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3394"><rect
+           id="rect3396"
+           width="131.66408"
+           height="36.500931"
+           x="23.464884"
+           y="24.028931" /></flowRegion><flowPara
+         id="flowPara3398"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3400"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:2.5px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3402"><rect
+           id="rect3404"
+           width="179.6815"
+           height="78.216278"
+           x="585.31848"
+           y="911.78369" /></flowRegion><flowPara
+         id="flowPara3406"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3408"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:2.5px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3410"><rect
+           id="rect3412"
+           width="7.8216281"
+           height="31.286512"
+           x="1306.2119"
+           y="542.86359" /></flowRegion><flowPara
+         id="flowPara3414"></flowPara></flowRoot>    <rect
+       id="rect3416"
+       width="612"
+       height="792"
+       x="0"
+       y="0" />
+  </g>
+</svg>

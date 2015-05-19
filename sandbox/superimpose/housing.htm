@@ -11,11 +11,13 @@ background-repeat:no-repeat;
 
 <body>
 <div id="first_name" style="position:absolute;left:200px;top:125px;">
+<div id="last_name" style="position:absolute;left:30px;top:125px;">
 
 </div>
 <script type="text/javascript">
 document.getElementById("first_name").innerHTML = localStorage.getItem("first_name");
-console.log(localStorage.getItem("first_name"));
+document.getElementById("last_name").innerHTML = localStorage.getItem("last_name");
+console.log(localStorage.getItem("last_name"));
 </script>
 
 </body>

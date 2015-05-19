@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3336"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 765 990"
+   sodipodi:docname="king_county_page_1_sandbox.svg">
+  <metadata
+     id="metadata3342">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3340" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     id="namedview3338"
+     showgrid="false"
+     inkscape:zoom="8.6787879"
+     inkscape:cx="-12.702166"
+     inkscape:cy="13.783007"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3336"
+     units="in" />
+  <image
+     sodipodi:absref="C:\Users\nina\Documents\codecarrots\sandbox\web_root\king_county_page_1.png"
+     xlink:href="king_county_page_1.png"
+     width="764.92145"
+     height="991.88025"
+     preserveAspectRatio="none"
+     id="image3344"
+     x="0"
+     y="-1.8802375" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3346"
+     style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(0,272.8125)"><flowRegion
+       id="flowRegion3348"><rect
+         id="rect3350"
+         width="134.5731"
+         height="17.470896"
+         x="20.776199"
+         y="134.03735"
+         style="font-size:5px" /></flowRegion><flowPara
+       id="flowPara3352">last_name</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3354"
+     style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(0,272.8125)"><flowRegion
+       id="flowRegion3356"><rect
+         id="rect3358"
+         width="175.65332"
+         height="18.887455"
+         x="177.54207"
+         y="134.03735"
+         style="font-size:7.5px" /></flowRegion><flowPara
+       id="flowPara3360">first_name</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3362"
+     style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(0,272.8125)"><flowRegion
+       id="flowRegion3364"><rect
+         id="rect3366"
+         width="67.522652"
+         height="18.887455"
+         x="392.38687"
+         y="133.56517"
+         style="font-size:7.5px" /></flowRegion><flowPara
+       id="flowPara3368">middle_inital</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3345"
+     style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(0,272.8125)"><flowRegion
+       id="flowRegion3347"><rect
+         id="rect3349"
+         width="141.56773"
+         height="10.684358"
+         x="56.092876"
+         y="611.01172"
+         style="font-size:7.5px" /></flowRegion><flowPara
+       id="flowPara3351">type_of_income</flowPara></flowRoot></svg>
