@@ -1,0 +1,31 @@
+
+	<div style="left: 17; top: 156; width: 170; height: 19.3">last_name</div>
+	
+	<div style="left: 17; top: 187.3; width: 556.7; height: 19.3">mailing_address</div>
+	
+	<div style="left: 210; top: 156; width: 170; height: 19.3">first_name</div>
+	
+	<div style="left: 424; top: 156; width: 170; height: 19.3">middle_initial</div>
+	
+	<div style="left: 17; top: 216.7; width: 170; height: 19.3">email</div>
+	
+	<div style="left: 210; top: 216.7; width: 170; height: 19.3">phone_number</div>
+	
+	<div style="left: 424; top: 216.7; width: 170; height: 19.3">work_number</div>
+	
+	<div style="left: 17; top: 272.7; width: 170; height: 19.3">alias</div>
+	
+	<div style="left: 396.7; top: 253.3; width: 170; height: 19.3">primary_language</div>
+	
+	<div style="left: 52.7; top: 368; width: 89.3; height: 19.3">last_name</div>
+	
+	<div style="left: 142.3; top: 368; width: 89.3; height: 19.3">first_name</div>
+	
+	<div style="left: 509; top: 368; width: 89.3; height: 19.3">ssi_number</div>
+	
+	<div style="left: 52.7; top: 386.3; width: 120.7; height: 19.3">member_last_name_1</div>
+	
+	<div style="left: 142.3; top: 386.3; width: 118.7; height: 19.3">member_first_name_1</div>
+	
+	<div style="left: 509; top: 386.3; width: 89.3; height: 19.3">member_ssi_1</div>
+

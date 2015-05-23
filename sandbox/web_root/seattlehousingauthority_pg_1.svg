@@ -1,0 +1,20 @@
+
+	<div style="left: 211.5; top: 110.5; width: 130.5; height: 18.5">last_name</div>
+	
+	<div style="left: 342; top: 110.5; width: 130.5; height: 18.5">first_name</div>
+	
+	<div style="left: 481.5; top: 110.5; width: 130.5; height: 18.5">middle_initial</div>
+	
+	<div style="left: 211.5; top: 144.8; width: 333.8; height: 18.5">mailing_address</div>
+	
+	<div style="left: 24.3; top: 179.3; width: 130.5; height: 18.5">phone_number</div>
+	
+	<div style="left: 24.3; top: 129; width: 169; height: 18.5">ssi_number</div>
+	
+	<div style="left: 378.4; top: 221.3; width: 130.5; height: 18.5">primary_language</div>
+	
+	<div style="left: 73.3; top: 597.3; width: 115.3; height: 18.5">member_last_name_1</div>
+	
+	<div style="left: 181.3; top: 597.3; width: 118.5; height: 18.5">member_first_name_1</div>
+	
+	<div style="left: 371.8; top: 600.5; width: 86.5; height: 18.5">member_ssi_1</div>
