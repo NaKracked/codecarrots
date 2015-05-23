@@ -1,49 +1,65 @@
 
 <html>
 <head>
+  <style>
+  body {
+padding-left: 100px;
+  }
+
+
+  input[type="text"]{
+/*    display:block;*/
+  }
+
+  input[type="checkbox"]{
+    display:block;
+  }
+ .header_design{
+font-weight:bold;
+font-size: 36px
+  }
+
+  .label{
+font-weight:bold;
+margin-top: 16px;
+  }
+
+  /*input:not([type]),*/ 
+  </style>
 
   <script src="js_functions_output.js">
 </script>
 </head>
 <body>
 
-<h1>Applicant Information</h1>
+<div class="header_design">Applicant Information</div>
 
-     First Name: <input class="user_input" id="first_name" type="text" name="first_name" placeholder="First Name"><br>
-     Middle Intial: <input class="user_input" id="middle_initial" type="text" name="middle_initial" placeholder="Middle Initial"><br>
-     Last Name: <input class="user_input" id="last_name" type="text" name="last_name" placeholder="Last Name"><br>
- 	 Alias: <input class="user_input" id="alias" type="text" name="alias" placeholder="Alias"><br>
- 	 Mailing Address: <input class="user_input" id="mailing_address" type="text" name="mailing_address" placeholder="Mailing Address"><br>
- 	 Email: <input class="user_input" id="email" type="text" name="email" placeholder="myemail@somewhere.com"><br>
- 	 Phone Number: <input class="user_input" id="phone_number" type="text" name="phone_number" placeholder="Phone Number"><br>
- 	 Work Number: <input class="user_input" id="work_number" type="text" name="work_number" placeholder="Work Number"><br>
- 	 Social Security Number: <input class="user_input" id="ssi_number" type="text" name="ssi_number" placeholder="XXX-XX-XXXX"><br>
- 	 Birth Date: <input class="user_input" id="birth_date" type="text" name="birth_date" placeholder="MM/DD/YEAR"><br>
- 	 Birth Place: <input class="user_input" id="birth_place" type="text" name="birth_place" placeholder="Birth Place"><br>
- 	 Primary Language: <input class="user_input" id="primary_language" type="text" name="primary_language" placeholder="Primary Language"><br>
-   Do you need a translator?:<input class="user_input" id="translator_need" type="checkbox" name="translator_need" value="yes">Yes<br>
-<!-- radio switches div -->
-<div id="gender"> 
-   Gender:<input class="user_input" id="gender" type="radio" name="gender" value="male" checked>Male
-  <input id="gender" type="radio" name="gender" value="female">Female<br>
-</div>   
-  <!-- If possible to only have one value, use that. When putting on output form will create formula for if on, put X here, if off put x here.  -->
-Are you a student?:<input class="user_input" id="student_status" type="checkbox" name="student_status" value="yes">Yes<br>
-  
- <!--  Do you have a Disability?:<input class="user_input" id="disability_status" type="radio" name="disability_status" value="yes" checked>Yes
-  <input id="disability_status" type="radio" name="disability_status" value="no">No<br> --><!--  replaced with checkbox -->
+    <div class="label">First Name:</div><input class="user_input" id="first_name" type="text" name="first_name" placeholder="First Name"><br>
+     <div class="label">Middle Inital:</div><input class="user_input" id="middle_initial" type="text" name="middle_initial" placeholder="Middle Initial"><br>
+     <div class="label">Last Name:</div><input class="user_input" id="last_name" type="text" name="last_name" placeholder="Last Name"><br>
+ 	 <div class="label">Alias:</div><input class="user_input" id="alias" type="text" name="alias" placeholder="Alias"><br>
+    <div class="label">Mailing Address:</div><input class="user_input" id="mailing_address" type="text" name="mailing_address" placeholder="Street, Apt #, City, State, Zip Code"><br>
+ 	 <div class="label">Email:</div><input class="user_input" id="email" type="text" name="email" placeholder="myemail@somewhere.com"><br>
+ 	 <div class="label">Phone Number:</div><input class="user_input" id="phone_number" type="text" name="phone_number" placeholder="Phone Number"><br>
+ 	 <div class="label">Work Number:</div> <input class="user_input" id="work_number" type="text" name="work_number" placeholder="Work Number"><br>
+ 	 <div class="label">Social Security Number:</div><input class="user_input" id="ssi_number" type="text" name="ssi_number" placeholder="XXX-XX-XXXX"><br>
+ 	 <div class="label">Birth Date:</div><input class="user_input" id="birth_date" type="text" name="birth_date" placeholder="MM/DD/YEAR"><br>
+ 	 <div class="label">Birth Place:</div><input class="user_input" id="birth_place" type="text" name="birth_place" placeholder="Birth Place"><br>
+  <div class="label">Gender:</div><input class="user_input" id="gender_male" type="checkbox" name="gender" value="yes">Male
+  <input class="user_input" id="gender_female" type="checkbox" name="gender_female" value="yes">Female
+ 	 <div class="label">Primary Language:</div><input class="user_input" id="primary_language" type="text" name="primary_language" placeholder="Primary Language"><br>
+   <div class="label">Do you need a translator?:</div><input class="user_input" id="translator_need" type="checkbox" name="translator_need" value="yes">Yes<br>
+<div class="label">Are you a student?:</div><input class="user_input" id="student_status" type="checkbox" name="student_status" value="yes">Yes<br>
+<div class="label">Do you have a disability?:</div><input class="user_input" id="disability_status" type="checkbox" name="disability_status" value="yes">Yes<br>
+<div class="label">Do you need an accomidation to complete this application?:</div><input class="user_input" id="application_accomidation" type="checkbox" name="application_accomidation" value="yes">Yes<br>
+<div class="label">What accomidations do you need to complete the application?:</div><input class="user_input" id="describe_application_accomidations" type="text" name="describe_application_accomidations" placeholder="Decribe Needed Accomidations"><br>
+ <div class="label">Do you need an accomidation or modification to your housing unit for it to be accessible?:</div><input class="user_input" id="unit_accomidation" type="checkbox" name="unit_accomidation" value="yes">Yes<br>
+<div class="label">What accomidations do you need to your housing unit?:</div><input class="user_input" id="describe_unit_accomidations" type="text" name="describe_unit_accomidations" placeholder="Unit Accomidations"><br>
+<div class="label">Are you or someone in your Household expecting a baby?:</div><input class="user_input" id="baby" type="checkbox" name="baby" value="yes">Yes<br>
 
-Do you have a disability?:<input class="user_input" id="disability_status" type="checkbox" name="disability_status" value="yes">Yes<br>
-Do you need an accomidation to complete this application?:<input class="user_input" id="application_accomidation" type="checkbox" name="application_accomidation" value="yes">Yes<br>
-   
-	What accomidations do you need to complete the application?: <input class="user_input" id="describe_application_accomidations" type="text" name="describe_application_accomidations" placeholder="Decribe Needed Accomidations"><br>
- 	Do you need an accomidation or modification to your housing unit for it to be accessible?:<input class="user_input" id="unit_accomidation" type="checkbox" name="unit_accomidation" value="yes">Yes<br>
-  What accomidations do you need to your housing unit?: <input class="user_input" id="describe_unit_accomidations" type="text" name="describe_unit_accomidations" placeholder="Unit Accomidations"><br>
-Are you or someone in your Household expecting a baby?: <input class="user_input" id="baby" type="text" name="baby" placeholder="Y/N"><br>
+<div class="header_design">Household Information</div>
 
-
-<h1>Household Information</h1>
- Household Race, please check all that apply:<br><input class="user_input" id="household_race_white" type="checkbox" name="household_race_white" value="yes">White<br>
+<div class="label">Household Race, please check all that apply:</div><input class="user_input" id="household_race_white" type="checkbox" name="household_race_white" value="yes">White<br>
 <input class="user_input" id="household_race_black" type="checkbox" name="household_race_black" value="yes">Black<br>
  <input class="user_input" id="household_race_asian" type="checkbox" name="household_race_asian" value="yes">Asian<br> 
 <input class="user_input" id="household_race_hispanic" type="checkbox" name="household_race_hispanic" value="yes">Hispanic or Latino<br>
@@ -51,26 +67,25 @@ Are you or someone in your Household expecting a baby?: <input class="user_input
 <input class="user_input" id="household_race_pacific_islander" type="checkbox" name="household_race_pacific_islander" value="yes">Pacific Islander<br>
 <input class="user_input" id="household_race_other" type="checkbox" name="household_race_other" value="yes">Other<br>
 
-Household Member's First Name: <input class="user_input" id="member_first_name_1" type="text" name="member_first_name_1" placeholder="First Name"><br>
-Household Member's Last Name: <input class="user_input" id="member_last_name_1" type="text" name="member_last_name_1" placeholder="Last Name"><br>
-Household Member's Middle Intial:<input class="user_input" id="member_middle_inital_1" type="text" name="member_middle_inital_1" placeholder="Middle Intial"><br>
-Household Member's Disability Status: <input class="user_input" id="member_disability_status_1" type="text" name="member_disability_status_1" placeholder="Y/N"><br>
-Household Member's Gender: <input class="user_input" id="member_gender_1" type="text" name="member_gender_1" placeholder="M/F"><br>
-Relationship to Applicant/Head of Household: <input class="user_input" id="relation_1" type="text" name="relation_1" placeholder="Son/Daughter/Spouse"><br>
-Household Member's Birth Date: <input class="user_input" id="member_birth_date_1" type="text" name="member_birth_date_1" placeholder="MM/DD/YEAR"><br>
-Household Member's Birth Place: <input class="user_input" id="member_birth_place_1" type="text" name="member_birth_place_1" placeholder="Birth Place"><br>
-Household Member's Social Security Number: <input class="user_input" id="member_ssi_1" type="text" name="member_ssi_1" placeholder="XXX-XX-XXXX"><br>
-Household Member's Race: <input class="user_input" id="member_race_1" type="text" name="member_race_1" placeholder="Black/White/Asian/Hispanic/Other"><br>
-Is this Household Member a Student?: <input class="user_input" id="member_student_1" type="text" name="member_student_1" placeholder="Y/N"><br>
+<div class="label">Household Member's First Name:</div><input class="user_input" id="member_first_name_1" type="text" name="member_first_name_1" placeholder="First Name"><br>
+<div class="label">Household Member's Last Name:</div><input class="user_input" id="member_last_name_1" type="text" name="member_last_name_1" placeholder="Last Name"><br>
+<div class="label">Household Member's Middle Intial:</div><input class="user_input" id="member_middle_inital_1" type="text" name="member_middle_inital_1" placeholder="Middle Intial"><br>
+<div class="label">Does this household member have a disability?:</div><input class="user_input" id="member_disability_status_1" type="checkbox" name="member_disability_status_1" value="yes">Yes<br>
+<div class="label">House Hold Member's Gender:</div><input class="user_input" id="member_gender_male_1" type="checkbox" name="member_gender_male_1" value="yes">Male
+  <input class="user_input" id="member_gender_female_1" type="checkbox" name="member_gender_female_1" value="yes">Female<br>
+<div class="label">Relationship to Applicant/Head of Household:</div><input class="user_input" id="relation_1" type="text" name="relation_1" placeholder="Son/Daughter/Spouse"><br>
+<div class="label">Household Member's Birth Date:</div><input class="user_input" id="member_birth_date_1" type="text" name="member_birth_date_1" placeholder="MM/DD/YEAR"><br>
+<div class="label">Household Member's Birth Place:</div><input class="user_input" id="member_birth_place_1" type="text" name="member_birth_place_1" placeholder="Birth Place"><br>
+<div class="label">Household Member's Social Security Number:</div><input class="user_input" id="member_ssi_1" type="text" name="member_ssi_1" placeholder="XXX-XX-XXXX"><br>
+<div class="label">Is this Household Member a Student?:</div><input class="user_input" id="member_student_1" type="checkbox" name="member_student_1" value="yes">Yes<br>
 
-<h1>Household Income Information</h1>
-
+<div class="header_design">Household Income Information</div>
 
 
  <button onclick="savename()" class="user_input" id="confirm">
  	Submit
  </button>
-      <!--   create save this warning and delete local storage -->
+      <!--   create save this warning and delete local storage, how to delete local storage: localStorage.clear(); -->
 
  <script type="text/javascript">
  function savename(){
@@ -96,15 +111,11 @@ localStorage.setItem("primary_language", document.getElementById("primary_langua
 localStorage.setItem("member_first_name_1", document.getElementById("member_first_name_1").value);
 localStorage.setItem("member_last_name_1", document.getElementById("member_last_name_1").value);
 localStorage.setItem("member_middle_inital_1", document.getElementById("member_middle_inital_1").value);
-localStorage.setItem("member_disability_status_1", document.getElementById("member_disability_status_1").value);
-localStorage.setItem("member_gender_1", document.getElementById("member_gender_1").value);
 localStorage.setItem("relation_1", document.getElementById("relation_1").value);
 localStorage.setItem("member_birth_place_1", document.getElementById("member_birth_place_1").value);
 localStorage.setItem("member_birth_date_1", document.getElementById("member_birth_date_1").value);
-localStorage.setItem("baby", document.getElementById("baby").value);
 localStorage.setItem("member_ssi_1", document.getElementById("member_ssi_1").value);
 localStorage.setItem("member_student_1", document.getElementById("member_student_1").value);
-localStorage.setItem("member_race_1", document.getElementById("member_race_1").value);
 
 //checkbox send to local storage below 
 localStorage.setItem("disability_status", document.getElementById("disability_status").checked);
@@ -119,6 +130,13 @@ localStorage.setItem("household_race_asian", document.getElementById("household_
 localStorage.setItem("household_race_native_american", document.getElementById("household_race_native_american").checked);
 localStorage.setItem("household_race_pacific_islander", document.getElementById("household_race_pacific_islander").checked);
 localStorage.setItem("household_race_other", document.getElementById("household_race_other").checked);
+localStorage.setItem("gender_female", document.getElementById("gender_female").checked);
+localStorage.setItem("gender_male", document.getElementById("gender_male").checked);
+localStorage.setItem("member_disability_status_1", document.getElementById("member_disability_status_1").checked);
+localStorage.setItem("member_gender_female_1", document.getElementById("member_gender_female_1").checked);
+localStorage.setItem("member_gender_male_1", document.getElementById("member_gender_male_1").checked);
+localStorage.setItem("baby", document.getElementById("baby").checked);
+
 //local storage is okay for now, but think about converting to session cookies or something. Google does encrypting with user created password. Save to disk to do now. 
 
   //shows what is saving to local storage
@@ -153,7 +171,6 @@ document.getElementById("member_birth_place_1").value = localStorage.getItem("me
 document.getElementById("baby").value = localStorage.getItem("baby");
 document.getElementById("member_ssi_1").value = localStorage.getItem("member_ssi_1");
 document.getElementById("member_student_1").value = localStorage.getItem("member_student_1");
-document.getElementById("member_race_1").value = localStorage.getItem("member_race_1");
 document.getElementById("household_race_white").value = localStorage.getItem("household_race_white");
 document.getElementById("household_race_black").value = localStorage.getItem("household_race_black");
 document.getElementById("household_race_asian").value = localStorage.getItem("household_race_asian");
@@ -161,6 +178,10 @@ document.getElementById("household_race_hispanic").value = localStorage.getItem(
 document.getElementById("household_race_native_american").value = localStorage.getItem("household_race_native_american");
 document.getElementById("household_race_pacific_islander").value = localStorage.getItem("household_race_pacific_islander");
 document.getElementById("household_race_other").value = localStorage.getItem("household_race_other");
+document.getElementById("gender_female").value = localStorage.getItem("gender_female");
+document.getElementById("gender_male").value = localStorage.getItem("gender_male");
+document.getElementById("member_gender_male_1").value = localStorage.getItem("member_gender_male_1");
+document.getElementById("member_gender_female_1").value = localStorage.getItem("member_gender_female_1");
 
 
 
