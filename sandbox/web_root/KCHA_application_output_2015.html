@@ -1,18 +1,47 @@
 <body>
 <img src="file:///C:/Users/nina/Documents/codecarrots/sandbox/web_root/PNG_APP_MOTHERS/Subsidized_Housing_Application_KingCountyHA_1.png" style="width: 612px; height: 792px;">
 
-<div id="last_name" class="form_blank" style="left: 17; top: 156; width: 170; height: 19.3"></div>
-<div id="mailing_address" class="form_blank" style="left: 17; top: 187.3; width: 556.7; height: 19.3"></div>
-<div id="first_name" class="form_blank" style="left: 210; top: 156; width: 170; height: 19.3"></div>
+	<div class="last_name" style="position: absolute;left: 17px; top: 156px; width: 170px; height: 19.3px" id="last_name"></div>
+	<div style="position: absolute;left: 17px; top: 187.3px; width: 556.7px; height: 19.3px" id="mailing_address"></div>
+	<div style="position: absolute;left: 210px; top: 156px; width: 170px; height: 19.3px" id="first_name"></div>
+	<div style="position: absolute;left: 424px; top: 156px; width: 170px; height: 19.3px" id="middle_initial"></div>
+	<div style="position: absolute;left: 17px; top: 216.7px; width: 170px; height: 19.3px" id="email"></div>
+	<div style="position: absolute;left: 210px; top: 216.7px; width: 170px; height: 19.3px" id="phone_number"></div>
+	<div style="position: absolute;left: 424px; top: 216.7px; width: 170px; height: 19.3px" id="work_number"></div>
+	<div style="position: absolute;left: 17px; top: 272.7px; width: 170px; height: 19.3px" id="alias"></div>
+	<div style="position: absolute;left: 396.7px; top: 253.3px; width: 170px; height: 19.3px" id="primary_language"></div>
+
+	 <div class="last_name" style="position: absolute;left: 52.7px; top: 368px; width: 89.3px; height: 19.3px" id="last_name"></div>
+	<div style="position: absolute;left: 142.3px; top: 368px; width: 89.3px; height: 19.3px" id="first_name"></div>
+<!-- These two are under the head of household down below
+ -->	
+ 	<div style="position: absolute;left: 509px; top: 368px; width: 89.3px; height: 19.3px" id="ssi_number"></div>
+	<div style="position: absolute;left: 52.7px; top: 386.3px; width: 120.7px; height: 19.3px" id="member_last_name_1"></div>	
+	<div style="position: absolute;left: 142.3px; top: 386.3px; width: 118.7px; height: 19.3px" id="member_first_name_1"></div>	
+	<div style="position: absolute;left: 509px; top: 386.3px; width: 89.3px; height: 19.3px" id="member_ssi_1"></div>
+
 
 <script type="text/javascript">
 document.getElementById("first_name").innerHTML = localStorage.getItem("first_name");
 document.getElementById("last_name").innerHTML = localStorage.getItem("last_name");
 document.getElementById("mailing_address").innerHTML = localStorage.getItem("mailing_address");
+document.getElementById("middle_initial").innerHTML = localStorage.getItem("middle_initial");
+document.getElementById("email").innerHTML = localStorage.getItem("email");
+document.getElementById("phone_number").innerHTML = localStorage.getItem("phone_number");
+document.getElementById("work_number").innerHTML = localStorage.getItem("work_number");
+document.getElementById("alias").innerHTML = localStorage.getItem("alias");
+document.getElementById("primary_language").innerHTML = localStorage.getItem("primary_language");
+document.getElementById("ssi_number").innerHTML = localStorage.getItem("ssi_number");
+document.getElementById("member_last_name_1").innerHTML = localStorage.getItem("member_last_name_1");
+document.getElementById("member_first_name_1").innerHTML = localStorage.getItem("member_first_name_1");
+document.getElementById("member_ssi_1").innerHTML = localStorage.getItem("member_ssi_1");
+
 
 console.log(localStorage.getItem("first_name"));
 console.log(localStorage.getItem("last_name"));
 console.log(localStorage.getItem("mailing_address"));
+
+
 </script>
 
 </body>

@@ -1,0 +1,31 @@
+<a href="data:text/plain;charset=utf-8,Hellow%20world!!!">test</a>
+download.js
+
+<a target="_blank" href="http://google.com">click here</a>
+
+<button onclick="download('public_housing_common_application','user_input')">download stuff</button>
+                          <!--  (actual file name that user sees, what to put in file) -->
+<script>
+function download(filename, text) {
+    var pom = document.createElement('a');
+    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    pom.setAttribute('download', filename);
+
+    if (document.createEvent) {
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true);
+        pom.dispatchEvent(event);
+    }
+    else {
+        pom.click();
+    }
+}
+</script>
+
+
+KC Housing Page 1<br/>
+KC Housing Page 2<br/>
+Seattle Page 1<br/>
+Seattle Page 2<br/>
+
+<a href="web_root/applicant_information_input.html">page one</a>

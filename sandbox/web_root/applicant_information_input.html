@@ -11,9 +11,9 @@ padding-left: 100px;
 /*    display:block;*/
   }
 
-  input[type="checkbox"]{
+  /*input[type="checkbox"]{
     display:block;
-  }
+  }*/
  .header_design{
 font-weight:bold;
 font-size: 36px
@@ -34,8 +34,8 @@ margin-top: 16px;
 
 <div class="header_design">Applicant Information</div>
 
-    <div class="label">First Name:</div><input class="user_input" id="first_name" type="text" name="first_name" placeholder="First Name"><br>
-     <div class="label">Middle Inital:</div><input class="user_input" id="middle_initial" type="text" name="middle_initial" placeholder="Middle Initial"><br>
+    <div class="label">First Name:</div><input class="user_input" id="first_name" type="text" name="first_name" placeholder="First Name"><br>    
+ <div class="label">Middle Inital:</div><input class="user_input" id="middle_initial" type="text" name="middle_initial" placeholder="Middle Initial"><br>
      <div class="label">Last Name:</div><input class="user_input" id="last_name" type="text" name="last_name" placeholder="Last Name"><br>
  	 <div class="label">Alias:</div><input class="user_input" id="alias" type="text" name="alias" placeholder="Alias"><br>
     <div class="label">Mailing Address:</div><input class="user_input" id="mailing_address" type="text" name="mailing_address" placeholder="Street, Apt #, City, State, Zip Code"><br>
@@ -45,9 +45,12 @@ margin-top: 16px;
  	 <div class="label">Social Security Number:</div><input class="user_input" id="ssi_number" type="text" name="ssi_number" placeholder="XXX-XX-XXXX"><br>
  	 <div class="label">Birth Date:</div><input class="user_input" id="birth_date" type="text" name="birth_date" placeholder="MM/DD/YEAR"><br>
  	 <div class="label">Birth Place:</div><input class="user_input" id="birth_place" type="text" name="birth_place" placeholder="Birth Place"><br>
+ 
   <div class="label">Gender:</div><input class="user_input" id="gender_male" type="checkbox" name="gender" value="yes">Male
   <input class="user_input" id="gender_female" type="checkbox" name="gender_female" value="yes">Female
  	 <div class="label">Primary Language:</div><input class="user_input" id="primary_language" type="text" name="primary_language" placeholder="Primary Language"><br>
+
+
    <div class="label">Do you need a translator?:</div><input class="user_input" id="translator_need" type="checkbox" name="translator_need" value="yes">Yes<br>
 <div class="label">Are you a student?:</div><input class="user_input" id="student_status" type="checkbox" name="student_status" value="yes">Yes<br>
 <div class="label">Do you have a disability?:</div><input class="user_input" id="disability_status" type="checkbox" name="disability_status" value="yes">Yes<br>
@@ -79,7 +82,7 @@ margin-top: 16px;
 <div class="label">Household Member's Social Security Number:</div><input class="user_input" id="member_ssi_1" type="text" name="member_ssi_1" placeholder="XXX-XX-XXXX"><br>
 <div class="label">Is this Household Member a Student?:</div><input class="user_input" id="member_student_1" type="checkbox" name="member_student_1" value="yes">Yes<br>
 
-<div class="header_design">Household Income Information</div>
+<!-- <div class="header_design">Household Income Information</div> -->
 
 
  <button onclick="savename()" class="user_input" id="confirm">
